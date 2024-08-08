@@ -1,1 +1,27 @@
-
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form name="Producto" class="formulario" action="informacion.php" method="POST">
+      <table class="tabla" border="1">
+        <tr>
+          <td>Producto_1</td>
+          <td> <input type="text" name="Producto_1"</td>
+          <td> <input type="text" name="Precio"</td>
+        </tr>
+        <tr>
+          <td>Producto_2</td>
+          <td> <input type="text" name="Producto_2"</td>
+          <td> <input type="text" name="Precio"</td>
+        </tr>
+       <tr>
+         <td>Producto_3</td>
+          <td> <input type="text" name="Producto_3"</td>
+          <td> <input type="text" name="Precio"</td>
+       </tr>
+      </table>
+    </form>
+    </body>
+</html>
