@@ -4,7 +4,7 @@
         <title></title>
     </head>
     <body>
-        <form name="Producto" class="formulario" action="info.php" method="POST">
+        <form name="precio" class="formulario" action="info.php" method="POST">
       <table class="tabla" border="1">
         <tr>
           <td>Producto_1</td>
