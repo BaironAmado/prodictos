@@ -1,10 +1,13 @@
-
-$Producto_1= $_POST ['Producto_1'];
-$Producto_2= $_POST ['Producto_2'];
-$Producto_3= $_POST ['Producto_3'];
-$Producto_1 $Producto_2 $Producto_3= $_POST ["Suma"];
-echo "El primer producto y su precio es: ".Producto_1;
-echo "El segundo producto y su precio es: ".Producto_2;
-echo "El tercer producto y su precio es: ".Producto_3;
-echo "La suma de los precios delproduto es: ".Suma;
+<?php
+$Precio1= $_POST ['Precio1'];
+$Precio2= $_POST ['Precio2'];
+$Precio3= $_POST ['Precio3'];
+$suma= $Precio1+$Precio2+$Precio3;
+$descuento= $suma*0.16;
+$total= $suma-$descuento;
+echo "el precio del producto uno es: ". $Precio1;
+echo "el precio del producto dos es: ". $Precio2;
+echo "el precio del producto tres es: ". $Precio3;
+echo "la suma de los tres productos es: ".$suma;
+echo "el total a pagar con un descuento del 0.16 es: ".$total;
 ?>
