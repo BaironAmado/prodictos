@@ -4,24 +4,26 @@
         <title></title>
     </head>
     <body>
-        <form name="precio" class="formulario" action="info.php" method="POST">
+          <form name="precio" class="formulario" action="info.php" method="POST">
       <table class="tabla" border="1">
         <tr>
-          <td>Producto_1</td>
-          <td> <input type="text" name="Producto_1"</td>
-          <td> <input type="text" name="Precio"</td>
+          <td>Producto 1</td>
+          <td> <input type="text" name="Precio1"</td>
         </tr>
         <tr>
-          <td>Producto_2</td>
-          <td> <input type="text" name="Producto_2"</td>
-          <td> <input type="text" name="Precio"</td>
+          <td>Producto 2</td>
+          <td> <input type="text" name="Precio2"</td>
         </tr>
        <tr>
-         <td>Producto_3</td>
-          <td> <input type="text" name="Producto_3"</td>
-          <td> <input type="text" name="Precio"</td>
+         <td>Producto 3</td>
+          <td> <input type="text" name="Precio3"</td>
+       </tr>
+       <tr>
+           <td> <input type="submit" values="Enviar Datos" class="boton"></td>
        </tr>
       </table>
+            
     </form>
+
     </body>
 </html>
